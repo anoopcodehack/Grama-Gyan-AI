@@ -1,0 +1,12 @@
+{
+  "name": "grama-gyan-ingestion",
+  "version": "1.0.0",
+  "description": "Textbook Parsing, Slicing, Embedding generation, and Atlas Ingestion Pipeline",
+  "type": "module",
+  "main": "main.js",
+  "dependencies": {
+    "@google/genai": "^2.4.0",
+    "dotenv": "^17.0.0",
+    "mongoose": "^8.9.3"
+  }
+}

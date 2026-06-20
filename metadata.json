@@ -1,0 +1,8 @@
+{
+  "name": "Grama-Gyan AI",
+  "description": "An offline-resilient, local-language AI tutor for rural and regional education conforming to State Board curriculum, with cultural analogy weaving and bilingual voice-back support.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

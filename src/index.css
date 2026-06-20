@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700;800;900&family=JetBrains+Mono:wght@400;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Space Grotesk", "Helvetica Neue", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer base {
+  :root {
+    --red: #e5473b;
+    --red-dark: #c93a30;
+    --black: #111111;
+    --white: #ffffff;
+    --off-white: #f9f9f7;
+    --light-gray: #f2f2f0;
+    --gray: #888888;
+    --dark-gray: #444444;
+    --border: #e0e0e0;
+    --lime: #c8f000;
+    --lime-dark: #a0c000;
+    --success: #22c55e;
+    --font: 'Space Grotesk', 'Helvetica Neue', Arial, sans-serif;
+  }
+
+  body {
+    background-color: var(--off-white);
+    color: var(--black);
+    font-family: var(--font);
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/* Custom Neo-Brutalist Utility Classes - Bold Typography Theme */
+.brutalist-card {
+  background: white;
+  border: 3px solid var(--black);
+  box-shadow: 8px 8px 0px 0px var(--black);
+  transition: all 0.15s ease-in-out;
+}
+
+.brutalist-card:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 10px 10px 0px 0px var(--black);
+}
+
+.brutalist-btn {
+  background: var(--lime);
+  color: var(--black);
+  border: 3px solid var(--black);
+  box-shadow: 4px 4px 0px 0px var(--black);
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+}
+
+.brutalist-btn:hover {
+  transform: translate(-1px, -1px);
+  box-shadow: 6px 6px 0px 0px var(--black);
+  background: var(--lime-dark);
+}
+
+.brutalist-btn:active {
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0px 0px var(--black);
+}
+
+.brutalist-btn-red {
+  background: var(--red);
+  color: white;
+  border: 3px solid var(--black);
+  box-shadow: 4px 4px 0px 0px var(--black);
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+}
+
+.brutalist-btn-red:hover {
+  background: var(--red-dark);
+  transform: translate(-1px, -1px);
+  box-shadow: 6px 6px 0px 0px var(--black);
+}
+
+.brutalist-btn-red:active {
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0px 0px var(--black);
+}
+
+.brutalist-badge {
+  color: var(--black);
+  border: 3px solid var(--black);
+  font-weight: 950;
+  font-size: 0.7rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* Scrollbars */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--light-gray);
+  border-left: 3px solid var(--black);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--black);
+  border: 3px solid var(--light-gray);
+}
