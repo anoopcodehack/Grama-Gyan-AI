@@ -6,7 +6,7 @@ Designed specifically for intermittent off-grid connectivity and powered by Gemi
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
 1. **Bilingual Conversational Interface**: Fluid translation and vocal assistance between Marathi and English (Marathi standard pronunciation assists).
 2. **Textbook Grounding (RAG)**: Search queries undergo dynamic vector keyword matching against Maharashtra SSC and CBSE standard textbooks. 
@@ -16,7 +16,7 @@ Designed specifically for intermittent off-grid connectivity and powered by Gemi
 
 ---
 
-## 📂 Operational File Structure
+## Operational File Structure
 
 The project has been architected according to proper modern multi-service repository patterns:
 
@@ -49,7 +49,7 @@ grama-gyan-ai/
 
 ---
 
-## 🛠️ Local Environment Kickoff
+## Local Environment Kickoff
 
 To run the unified stack locally on your workstation, configure your secrets block and run:
 
@@ -89,7 +89,7 @@ npm run dev # Initiates Vite on Port 3000
 
 ---
 
-## 🛡️ Telemetry and Core Environment Variables
+## Telemetry and Core Environment Variables
 
 Copy `.env.example` and supply your variables:
 
