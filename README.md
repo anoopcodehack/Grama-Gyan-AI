@@ -5,6 +5,13 @@ Grama-Gyan is a responsive Web Application and Microservice layer engineered to 
 Designed specifically for intermittent off-grid connectivity and powered by Gemini models, Grama-Gyan bridges abstract scientific principles (gravity, force, magnetism) with familiar agrarian and rural household analogies.
 
 ---
+## Mockups
+<img width="750" height="805" alt="image" src="https://github.com/user-attachments/assets/571bb086-d179-48bb-a501-75f3f0f10550" />
+<img width="1912" height="807" alt="image" src="https://github.com/user-attachments/assets/b304c95c-3e8d-4a08-90e1-338a0906ee7f" />
+<img width="1902" height="766" alt="image" src="https://github.com/user-attachments/assets/5b4ceb73-ed7e-4c72-a9e4-83fcf561571f" />
+<img width="762" height="792" alt="image" src="https://github.com/user-attachments/assets/dd6cc06d-78b5-44e4-b8ba-d8038625f79a" />
+
+---
 
 ## Key Features
 
