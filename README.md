@@ -127,6 +127,47 @@ Step 10 STUDENT HEARS THE ANSWER
 ```
  
 ---
+
+## Roadmap
+ 
+```
+Phase 1 — Foundation (Current)
+ 
+✓ Voice-first interaction (Bhashini ASR/TTS)
+✓ RAG pipeline grounded in SSC Maharashtra + CBSE textbooks
+✓ Cultural Analogy Middleware with pre-seeded library
+✓ Dual-mode offline architecture (Atlas cache + IndexedDB)
+✓ Teacher contribution portal (live analogy ingestion)
+✓ LLM fallback chain (Gemini → Groq)
+✓ Docker Compose deployment
+ 
+ 
+Phase 2 — Expansion (Near-Term)
+ 
+- Offline cache hit rate optimization
+- Teacher gap-analytics dashboard
+- SMS/IVR fallback for zero-internet feature phone access
+- Karnataka SSLC textbook ingestion pipeline
+- Expanded language support (Kannada, Tamil, Telugu)
+ 
+ 
+Phase 3 — Intelligence (Mid-Term)
+ 
+- Adaptive personalized learning paths per student
+- Peer-to-peer cached Q&A sharing via local mesh networks
+- RAGAS-based RAG evaluation pipeline
+- BM25 + vector hybrid retrieval
+ 
+ 
+Phase 4 — Scale (Long-Term)
+ 
+- On-device small language model (full offline inference)
+- Complete cloud independence for rural government schools
+- Zilla Parishad / SSA deployment partnerships
+- CSR and national EdTech challenge funding integration
+```
+
+
 ## Operational File Structure
 
 The project has been architected according to proper modern multi-service repository patterns:
@@ -209,47 +250,6 @@ npm run dev # Initiates Vite on Port 3000
 ```
 
 ---
-
-## Roadmap
- 
-```
-Phase 1 — Foundation (Current)
- 
-✓ Voice-first interaction (Bhashini ASR/TTS)
-✓ RAG pipeline grounded in SSC Maharashtra + CBSE textbooks
-✓ Cultural Analogy Middleware with pre-seeded library
-✓ Dual-mode offline architecture (Atlas cache + IndexedDB)
-✓ Teacher contribution portal (live analogy ingestion)
-✓ LLM fallback chain (Gemini → Groq)
-✓ Docker Compose deployment
- 
- 
-Phase 2 — Expansion (Near-Term)
- 
-- Offline cache hit rate optimization
-- Teacher gap-analytics dashboard
-- SMS/IVR fallback for zero-internet feature phone access
-- Karnataka SSLC textbook ingestion pipeline
-- Expanded language support (Kannada, Tamil, Telugu)
- 
- 
-Phase 3 — Intelligence (Mid-Term)
- 
-- Adaptive personalized learning paths per student
-- Peer-to-peer cached Q&A sharing via local mesh networks
-- RAGAS-based RAG evaluation pipeline
-- BM25 + vector hybrid retrieval
- 
- 
-Phase 4 — Scale (Long-Term)
- 
-- On-device small language model (full offline inference)
-- Complete cloud independence for rural government schools
-- Zilla Parishad / SSA deployment partnerships
-- CSR and national EdTech challenge funding integration
-```
-
-
 
 ## Telemetry and Core Environment Variables
 
